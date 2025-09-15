@@ -1,4 +1,4 @@
-# 🛡️ AI Resume Scraper & Matcher 🚀
+#  AI Resume Scraper & Matcher 🚀🚀
 
 An intelligent application that uses machine learning to score and match resumes against a job description.
 
@@ -8,11 +8,7 @@ An intelligent application that uses machine learning to score and match resumes
 
 Here is a quick demo of the application in action.
 
-
 https://github.com/user-attachments/assets/e68eb3c5-4bcb-4645-92df-c657bc24908d
-
-
-
 
 ### ✨ Features
 
@@ -32,7 +28,7 @@ https://github.com/user-attachments/assets/e68eb3c5-4bcb-4645-92df-c657bc24908d
 * **PyPDF2 & python-docx**: For parsing text from resume files.
 * **Spacy**: For extracting keywords and skills.
 * **Pandas**: For handling and displaying the data in a clean tabular format.
-* 
+  
 ---
 
 ### 🚀 Getting Started
@@ -41,17 +37,22 @@ To run this application locally, follow these steps:
 
 1.  **Clone the repository**:
     ```sh
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
-    cd your-repo-name
+    git clone https://github.com/HassamMirza804/AI-Resume-Scraper-Matcher.git
+    cd AI-Resume-Scraper-Matcher
     ```
 
-2.  **Install the dependencies**:
+2.  **Create a virtual environment**:
+    ```sh
+    python -m venv venv
+    source venv/bin/activate  # On Windows: venv\Scripts\activate
+    ```
+
+3.  **Install the dependencies**:
     ```sh
     pip install -r requirements.txt
     ```
-
-3.  **Run the Flask application**:
+4.  **Run the application**:
     ```sh
-    gunicorn app:app
+    streamlit run app.py
     ```
-    The application will be accessible at `http://localhost:5000`.
+    The application will automatically open in your default web browser.
